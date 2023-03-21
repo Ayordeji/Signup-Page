@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./sign up favicon.jpg" type="image/x-icon" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Sign Up</h1>
+
+        <!-- Form -->
+        <form action="/action_page.php">
+          <div>
+            <label for="fname">Username</label>
+            <input type="text" class="input-space" id="username" name="username" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" class="input-space" id="email" name="email" required />
+          </div>
+
+          <div>
+            <label for="pnumber">Phone number</label>
+            <input type="number" class="input-space" id="pnumber" name="pnumber" required />
+          </div>
+
+          <div>
+            <label for="password">Password</label>
+            <input type="password" class="input-space" id="password" name="password" required /><br />
+          </div>
+
+          <!-- Button -->
+          <div class="button-container">
+            <a href="#">Register</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
